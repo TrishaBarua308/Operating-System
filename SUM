@@ -1,0 +1,5 @@
+echo "Input a"
+read a
+echo "Input b"
+read b
+echo "Result = $((a+b))"
