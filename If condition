@@ -1,0 +1,6 @@
+echo "Input your name "
+read name
+if [ $name == "Trisha" ] || [ $name == "Mitu" ]
+then echo "Hiii $name😍 "
+else echo "Byee $name😒"
+fi
