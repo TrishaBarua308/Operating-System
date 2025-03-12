@@ -1,0 +1,8 @@
+echo "Input ID"
+read num
+if [ $num -eq 16 ]
+then 
+echo "Hello Trisha😃"
+echo "Your ID is $num"
+else echo "Sorry😢.Invalid ID"
+fi
