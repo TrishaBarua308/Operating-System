@@ -1,0 +1,8 @@
+echo "Input your age "
+read a
+if [ $a -eq 18 ] || [ $a -gt 18 ]
+then
+echo "You can vore"
+else 
+echo "You cannot vote"
+fi
