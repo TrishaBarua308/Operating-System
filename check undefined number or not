@@ -1,0 +1,14 @@
+# check undefined number or not 
+echo "Input a & b"
+read a 
+read b 
+
+if [ $b -eq 0 ]
+then 
+     echo "Undefined"
+else
+     echo "ans=$((a/b))"
+fi
+
+#Trisha Barua
+#41230201016
