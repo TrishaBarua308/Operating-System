@@ -1,0 +1,9 @@
+echo "Input a & b"
+read a
+read b
+
+echo "Sum = $((a+b))"
+echo "Subtraction = $((a-b))"
+echo "Multiplication = $((a*b))"
+echo "Division = $((a/b))"
+fi
